@@ -21,33 +21,28 @@ jupyterlab
 
 
 
-Évaluation de la faisabilité basée sur les résultats des analyses précédentes.
+Évaluation de la faisabilité basée sur les résultats des analyses.
 
 ## Utilisation 
 
 L'environnement et le notebook sont containerisés dans une image docker.
 Voici le lien et les indications pour l'executer.
-
-'''
+```
 docker pull ghcr.io/leen1515/p2:latest
-'''
-
+```
 Verifier l'image:
 
-'''
+```
 docker images
-'''
-
+```
 Préparer un repertoire
-'''
-mkdir nouveau_dosser
+```
 cd nouveau_dossier
-'''
-
+```
 Lance le container
-'''
+```
 docker run -p 8888:8888 -v ${PWD}:/home/jovyan/work --name p2 ghcr.io/leen1515/p2:latest
-'''
+```
 
 Accèder au container
 http://127.0.0.1:8888/lab
