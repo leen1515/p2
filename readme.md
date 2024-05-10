@@ -11,13 +11,13 @@ Ce projet établit la faisabilité d'une application destinée à améliorer la 
 ## Dépendances
 Ce projet nécessite les bibliothèques Python suivantes :
 
-numpy==1.26.4
-pandas==2.2.2
-matplotlib==3.8.4
-seaborn==0.13.2
-scikit-learn==1.4.1.post1
-plotly==5.21.0
-jupyterlab
+*numpy==1.26.4
+*pandas==2.2.2
+*matplotlib==3.8.4
+*seaborn==0.13.2
+*scikit-learn==1.4.1.post1
+*plotly==5.21.0
+*jupyterlab
 
 
 
